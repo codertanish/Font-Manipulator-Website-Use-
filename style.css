@@ -1,0 +1,58 @@
+         
+         .btn-grad {
+            background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            border-radius: 10px;
+            display: block;
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+          body {
+              text-align: center;
+              background: linear-gradient(90deg, rgba(34,195,176,1) 0%, rgba(0,255,251,1) 6%, rgba(0,255,191,1) 18%, rgba(0,242,255,1) 33%, rgba(0,255,234,1) 52%, rgba(28,197,202,1) 60%, rgba(26,179,214,1) 71%, rgba(0,199,255,1) 78%, rgba(22,155,223,1) 85%, rgba(10,96,228,1) 91%, rgba(11,46,142,1) 100%);
+              font-family: Comic Sans MS;
+          }
+
+          .heading {
+            font-size: 15px;
+            width: 100%;
+            margin: 0px;
+          }
+
+          .copy_right_footer {
+              position: fixed;
+              bottom: 0;
+              background: linear-gradient(90deg, rgba(184,186,9,1) 0%, rgba(240,236,22,1) 7%, rgba(255,247,0,1) 11%, rgba(255,247,0,1) 27%, rgba(255,162,3,1) 50%, rgba(255,60,2,1) 72%, rgba(255,41,1,1) 81%, rgba(231,30,18,1) 94%, rgba(199,5,5,1) 100%);
+              width: 100%;
+              color: black;
+              line-height: 3;
+              text-align: center;
+          }
+
+          canvas {
+              border: 2px solid black;
+              border-radius: 20px;
+              animation-name: GlowingBorder;  
+              animation-duration: 6s;
+              animation-iteration-count: infinite;
+          }
+
+          @keyframes GlowingBorder {
+              from {box-shadow: 5px 5px 10px lightcoral;}
+              20% {box-shadow: 5px 5px 10px lightpink;}
+              40% {box-shadow: 5px 5px 10px lightcyan;}
+              60% {box-shadow: 5px 5px 10px lightgreen;}
+              80% {box-shadow: 5px 5px 10px lightgoldenrodyellow;}
+              to {box-shadow: 5px 5px 10px lightcoral;}
+          }
+         
